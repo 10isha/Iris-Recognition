@@ -48,4 +48,13 @@ python IrisRecognition.py
 - Each module (`ImageEnhancement.py`, `IrisLocalization.py`, etc.) can also be run individually for testing and analysis.
 - Ensure that the input images are compatible with the expected format (e.g., `.bmp`, `.jpg`).
 
+## Images
+
+This file contains 8 images depicting the step-by-step output we obtained for localization, normalization, and enhancement.
+
+- **Fig1**: Depicts the grayscale image of the eye.
+- **Fig2**: Depicts the colored image, which is what gets stored in the target array in the Localization function.
+- **Fig3**: Depicts the output of Localization, i.e., the original image with inner and outer boundaries.
+- **Fig4**: Depicts the enhanced normalized 64x512 rectangular image, which is used for further feature extraction steps.
+
 
